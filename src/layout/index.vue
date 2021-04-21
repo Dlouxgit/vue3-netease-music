@@ -34,10 +34,8 @@ export default defineComponent({
   }
   @include e(content) {
     flex: 1;
+    overflow-y: auto;
+    padding-bottom: 32px;
   }
-  // .layout__body {
-  //   .layout__content {
-  //   }
-  // }
 }
 </style>

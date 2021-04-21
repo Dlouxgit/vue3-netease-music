@@ -50,13 +50,14 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .menu {
-  width: 400px;
+  width: 300px;
   height: 100%;
   background-color: $--menu--color;
 
   @include e(item) {
-    padding: 8px 18px;
+    padding: 12px 18px;
     cursor: pointer;
+    display: inline-block;
 
     &:hover {
       background-color: $--menu_item--color-active;

@@ -3,7 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import '@/style/reset.css'
-import '@/style/variable.scss'
+import { ElLoading } from 'element-plus'
 
-createApp(App).use(store).use(router).mount('#app')
+import '@/style/index.scss'
+
+createApp(App).use(store).use(router).use(ElLoading).mount('#app')
